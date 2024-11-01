@@ -1,1 +1,1 @@
-main src/main.c src/display.c include/display.h
+server src/server.c src/domain.c src/filter.c include/domain.h include/filter.h
