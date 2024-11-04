@@ -1,3 +1,8 @@
+/*
+ * Kevin Nguyen
+ * A00955925
+ */
+
 #ifndef FILTER_H
 #define FILTER_H
 

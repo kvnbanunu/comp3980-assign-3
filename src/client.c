@@ -5,7 +5,6 @@
 
 #include "../include/socket.h"
 #include <arpa/inet.h>
-#include <bits/getopt_core.h>
 #include <errno.h>
 #include <fcntl.h>
 #include <getopt.h>

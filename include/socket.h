@@ -1,3 +1,7 @@
+/*
+ * Kevin Nguyen
+ * A00955925
+ */
 #ifndef SOCKET_H
 #define SOCKET_H
 

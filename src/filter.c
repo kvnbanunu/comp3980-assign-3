@@ -1,3 +1,8 @@
+/*
+ * Kevin Nguyen
+ * A00955925
+ */
+
 #include "../include/filter.h"
 
 void filter_message(char *message, size_t msgSize, char (*filter_func)(char))

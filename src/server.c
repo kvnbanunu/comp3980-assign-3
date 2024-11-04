@@ -1,3 +1,8 @@
+/*
+ * Kevin Nguyen
+ * A00955925
+ */
+
 #include "../include/filter.h"
 #include "../include/socket.h"
 #include <arpa/inet.h>
@@ -112,6 +117,11 @@ int main(int argc, char *argv[])
         {
             perror("fork");
             close(client_fd);
+            if(exit_flag)
+            {
+                break;
+            }
+            continue;
         }
         if(pid == 0)
         {
@@ -131,8 +141,13 @@ int main(int argc, char *argv[])
 
             exit(EXIT_SUCCESS);
         }
+        if(exit_flag)
+        {
+            break;
+        }
     }
     close(server_fd);
+    close(shm_fd);
     sem_close(counter_sem);
     sem_unlink(SEM_PATH);
     munmap(connection_counter, sizeof(int));

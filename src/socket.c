@@ -1,3 +1,8 @@
+/*
+ * Kevin Nguyen
+ * A00955925
+ */
+
 #include "../include/socket.h"
 #include <arpa/inet.h>
 #include <netinet/in.h>
