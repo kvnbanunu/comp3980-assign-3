@@ -34,6 +34,7 @@ static void           socket_close(int sockfd);
 int main(int argc, char *argv[])
 {
     int                     server_fd;
+    int                     exit_val;
     size_t                  msg_size;
     ssize_t                 bytes_read;
     struct sockaddr_storage addr;
@@ -56,6 +57,7 @@ int main(int argc, char *argv[])
     if(buffer == NULL)
     {
         fprintf(stderr, "Error: Malloc buffer\n");
+        exit_val = EXIT_FAILURE;
         goto cleanup;
     }
     snprintf(buffer, msg_size, "%s\n%s", filter, message);
@@ -65,6 +67,7 @@ int main(int argc, char *argv[])
     if(write(server_fd, buffer, msg_size - 1) < 0)
     {
         fprintf(stderr, "Error: Message could not be sent\n");
+        exit_val = EXIT_FAILURE;
         goto free_buffer;
     }
 
@@ -72,6 +75,7 @@ int main(int argc, char *argv[])
     if(message_received == NULL)
     {
         fprintf(stderr, "Error: Malloc message_received\n");
+        exit_val = EXIT_FAILURE;
         goto free_buffer;
     }
 
@@ -79,10 +83,12 @@ int main(int argc, char *argv[])
     if(bytes_read == -1)
     {
         fprintf(stderr, "Error: Could not read from server\n");
+        exit_val = EXIT_FAILURE;
         goto free_message_received;
     }
 
     printf("Message received from Server: %s\n", message_received);
+    exit_val = EXIT_SUCCESS;
 
 free_message_received:
     free(message_received);
@@ -93,7 +99,7 @@ free_buffer:
 cleanup:
     shutdown_socket(server_fd, SHUT_WR);
     socket_close(server_fd);
-    exit(EXIT_SUCCESS);
+    exit(exit_val);
 }
 
 static void parse_arguments(int argc, char *argv[], char **target_address, char **port, char **filter, char **message)
