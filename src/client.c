@@ -14,7 +14,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#define SERVER_PATH "/tmp/server.sock"
+#define SERVER_PATH "/tmp/server_sock"
 #define MAX_ARGS 4    // [program, opt, filter, message]
 
 int main(int argc, char *argv[])
