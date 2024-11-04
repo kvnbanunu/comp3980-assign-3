@@ -19,6 +19,7 @@
 #include <string.h>
 #include <sys/mman.h>
 #include <sys/socket.h>
+#include <sys/stat.h>
 #include <sys/types.h>
 #include <unistd.h>
 
@@ -28,6 +29,7 @@
 #define BASE_TEN 10
 #define BUFFER_SIZE 128
 #define SEM_PERMS 0644
+#define SHM_PERMS 0600
 
 // Global variables for semaphore
 static int                  *connection_counter;    // NOLINT(cppcoreguidelines-avoid-non-const-global-variables)
@@ -72,14 +74,16 @@ int main(int argc, char *argv[])
     printf("Server listening on %s:%s for requests...\n", address, port_str);
 
     // Set up shared memory for the connection counter
-    shm_fd = shm_open(COUNTER_PATH, O_CREAT | O_RDWR, S_IRUSR | S_IWUSR);
+    shm_fd = shm_open(COUNTER_PATH, O_CREAT | O_RDWR, SHM_PERMS);
     if(shm_fd == -1)
     {
         fprintf(stderr, "Error: Failed to open shared memory\n");
         goto fail;
     }
 
-    connection_counter = (int *)mmap(NULL, sizeof(int), PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, shm_fd, 0);
+    ftruncate(shm_fd, sizeof(int));
+
+    connection_counter = (int *)mmap(NULL, sizeof(int), PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
     if(connection_counter == MAP_FAILED)
     {
         fprintf(stderr, "Error: mmap failed\n");
