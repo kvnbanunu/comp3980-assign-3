@@ -14,8 +14,8 @@
 #define BACKLOG 5
 #define BUFFER_SIZE 128
 
-void sig_handler(int sig);
-int  handle_request(int client_fd);
+_Noreturn void sig_handler(int sig);
+int            handle_request(int client_fd);
 
 int main(void)
 {
@@ -62,7 +62,7 @@ int main(void)
             goto fail;
         }
 
-        printf("Request recieved\n");
+        printf("Request recieved. Processing...\n");
 
         pid = fork();
         if(pid < 0)
@@ -79,10 +79,11 @@ int main(void)
             }
             else
             {
-                printf("Request handled successfully\n");
+                printf("Request processed. Sending response...\n");
             }
             exit(EXIT_SUCCESS);
         }
+        printf("Response sent. Response count: %d\n", res_count);
     }
 
 fail:
@@ -91,11 +92,13 @@ fail:
     exit(EXIT_FAILURE);
 }
 
-void sig_handler(int sig)
+_Noreturn void sig_handler(int sig)
 {
+    const char *message = "\nSIGINT received. Server shutting down.\n";
+    write(1, message, strlen(message));
     (void)sig;
     unlink(SERVER_PATH);
-    exit(EXIT_SUCCESS);
+    _exit(EXIT_SUCCESS);
 }
 
 int handle_request(int client_fd)
