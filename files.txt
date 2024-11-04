@@ -1,2 +1,2 @@
-server src/server.c src/domain.c src/filter.c include/domain.h include/filter.h
-client src/client.c src/domain.c src/usage.c include/domain.h include/usage.h
+server src/server.c src/socket.c src/filter.c include/socket.h include/filter.h
+client src/client.c src/socket.c include/socket.h

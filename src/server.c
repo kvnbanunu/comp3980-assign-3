@@ -1,9 +1,14 @@
-#include "../include/domain.h"
 #include "../include/filter.h"
+#include "../include/socket.h"
+#include <arpa/inet.h>
 #include <complex.h>
+#include <errno.h>
 #include <fcntl.h>
+#include <inttypes.h>
+#include <netinet/in.h>
 #include <semaphore.h>
 #include <signal.h>
+#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,10 +17,10 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#define SERVER_PATH "/tmp/server_sock"
 #define SEM_PATH "/counter_sem"
 #define COUNTER_PATH "/counter_mem"
-#define BACKLOG 5
+#define UNKNOWN_OPTION_MESSAGE_LEN 24
+#define BASE_TEN 10
 #define BUFFER_SIZE 128
 #define SEM_PERMS 0644
 
@@ -24,47 +29,42 @@ static int                  *connection_counter;    // NOLINT(cppcoreguidelines-
 static sem_t                *counter_sem;           // NOLINT(cppcoreguidelines-avoid-non-const-global-variables)
 static volatile sig_atomic_t exit_flag = 0;         // NOLINT(cppcoreguidelines-avoid-non-const-global-variables)
 
-static void setup_signal_handler(void);
-void        sig_handler(int sig);
-int         handle_request(int client_fd);
+static void           setup_signal_handler(void);
+static void           sig_handler(int sig);
+static void           parse_arguments(int argc, char *argv[], char **ip_address, char **port);
+static void           handle_arguments(const char *binary_name, const char *ip_address, const char *port_str, in_port_t *port);
+static in_port_t      parse_in_port_t(const char *binary_name, const char *port_str);
+_Noreturn static void print_usage(const char *program_name, int exit_code, const char *message);
+static void           socket_bind(int sockfd, struct sockaddr_storage *addr, in_port_t port);
+int                   handle_request(int client_fd);
 
-int main(void)
+int main(int argc, char *argv[])
 {
     int                     shm_fd;
     int                     server_fd;
     int                     client_fd;
     int                     result;
     struct sockaddr_storage addr;
-    socklen_t               addr_len;
     pid_t                   pid;
+    in_port_t               port;
+    char                   *address  = NULL;
+    char                   *port_str = NULL;
 
     setup_signal_handler();
+    parse_arguments(argc, argv, &address, &port_str);
+    handle_arguments(argv[0], address, port_str, &port);
+    convert_address(address, &addr);
+    server_fd = socket_create(addr.ss_family, SOCK_STREAM, 0);
+    socket_bind(server_fd, &addr, port);
 
-    setup_domain_address(&addr, &addr_len, SERVER_PATH);
-
-    server_fd = socket(addr.ss_family, SOCK_STREAM, 0);    // NOLINT(android-cloexec-socket)
-    if(server_fd == -1)
-    {
-        fprintf(stderr, "Error opening socket\n");
-        goto fail;
-    }
-
-    unlink(SERVER_PATH);    // Remove any existing socket file in the path.
-    result = bind(server_fd, (const struct sockaddr *)&addr, addr_len);
-    if(result == -1)
-    {
-        fprintf(stderr, "Error binding domain socket");
-        goto fail;
-    }
-
-    result = listen(server_fd, BACKLOG);
+    result = listen(server_fd, SOMAXCONN);
     if(result == -1)
     {
         fprintf(stderr, "Error listening");
         goto fail;
     }
 
-    printf("Server listening for requests...\n");
+    printf("Server listening on %s:%s for requests...\n", address, port_str);
 
     // Set up shared memory for the connection counter
     shm_fd = shm_open(COUNTER_PATH, O_CREAT | O_RDWR, S_IRUSR | S_IWUSR);
@@ -133,7 +133,6 @@ int main(void)
         }
     }
     close(server_fd);
-    unlink(SERVER_PATH);
     sem_close(counter_sem);
     sem_unlink(SEM_PATH);
     munmap(connection_counter, sizeof(int));
@@ -142,7 +141,6 @@ int main(void)
 
 fail:
     close(server_fd);
-    unlink(SERVER_PATH);
     sem_unlink(SEM_PATH);
     unlink(COUNTER_PATH);
     exit(EXIT_FAILURE);
@@ -174,7 +172,7 @@ static void setup_signal_handler(void)
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wunused-parameter"
 
-void sig_handler(int sig)
+static void sig_handler(int sig)
 {
     const char *message = "\nSIGINT received. Server shutting down.\n";
     write(1, message, strlen(message));
@@ -182,6 +180,154 @@ void sig_handler(int sig)
 }
 
 #pragma GCC diagnostic pop
+
+static void parse_arguments(int argc, char *argv[], char **ip_address, char **port)
+{
+    int opt;
+    opterr = 0;
+
+    while((opt = getopt(argc, argv, "h")) != -1)
+    {
+        switch(opt)
+        {
+            case 'h':
+            {
+                print_usage(argv[0], EXIT_SUCCESS, NULL);
+            }
+            case '?':
+            {
+                char message[UNKNOWN_OPTION_MESSAGE_LEN];
+
+                snprintf(message, sizeof(message), "Unknown option '-%c'.", optopt);
+                print_usage(argv[0], EXIT_FAILURE, NULL);
+            }
+            default:
+            {
+                print_usage(argv[0], EXIT_FAILURE, NULL);
+            }
+        }
+    }
+
+    if(optind >= argc)
+    {
+        print_usage(argv[0], EXIT_FAILURE, "Error: the ip address and port are required");
+    }
+
+    if(optind + 1 >= argc)
+    {
+        print_usage(argv[0], EXIT_FAILURE, "Error: the port is required");
+    }
+
+    if(optind < argc - 2)
+    {
+        print_usage(argv[0], EXIT_FAILURE, "Error: too many arugments.");
+    }
+
+    *ip_address = argv[optind];
+    *port       = argv[optind + 1];
+}
+
+static void handle_arguments(const char *binary_name, const char *ip_address, const char *port_str, in_port_t *port)
+{
+    if(ip_address == NULL)
+    {
+        print_usage(binary_name, EXIT_FAILURE, "Error: the ip address is required");
+    }
+
+    if(port_str == NULL)
+    {
+        print_usage(binary_name, EXIT_FAILURE, "Error: the port is required");
+    }
+    *port = parse_in_port_t(binary_name, port_str);
+}
+
+static in_port_t parse_in_port_t(const char *binary_name, const char *str)
+{
+    char     *endptr;
+    uintmax_t parsed_value;
+
+    errno        = 0;
+    parsed_value = strtoumax(str, &endptr, BASE_TEN);
+
+    if(errno != 0)
+    {
+        perror("Error parsing port");
+        exit(EXIT_FAILURE);
+    }
+
+    // Check if there are any non-numeric characters in the input string
+    if(*endptr != '\0')
+    {
+        print_usage(binary_name, EXIT_FAILURE, "Error: Invalid characters in input");
+    }
+
+    // Check if the parsed value is within the valid range
+    if(parsed_value > UINT16_MAX)
+    {
+        print_usage(binary_name, EXIT_FAILURE, "Error: port value out of range");
+    }
+
+    return (in_port_t)parsed_value;
+}
+
+_Noreturn static void print_usage(const char *program_name, int exit_code, const char *message)
+{
+    if(message)
+    {
+        fprintf(stderr, "%s\n", message);
+    }
+    fprintf(stderr, "Usage: %s [-h] <ip address> <port>\n", program_name);
+    fputs("Options:\n", stderr);
+    fputs("\t-h Display this help message\n", stderr);
+    exit(exit_code);
+}
+
+static void socket_bind(int sockfd, struct sockaddr_storage *addr, in_port_t port)
+{
+    char      addr_str[INET6_ADDRSTRLEN];
+    socklen_t addr_len;
+    void     *vaddr;
+    in_port_t net_port;
+
+    net_port = htons(port);
+
+    if(addr->ss_family == AF_INET)
+    {
+        struct sockaddr_in *ipv4_addr;
+
+        ipv4_addr           = (struct sockaddr_in *)addr;
+        addr_len            = sizeof(*ipv4_addr);
+        ipv4_addr->sin_port = net_port;
+        vaddr               = (void *)&(((struct sockaddr_in *)addr)->sin_addr);
+    }
+    else if(addr->ss_family == AF_INET6)
+    {
+        struct sockaddr_in6 *ipv6_addr;
+
+        ipv6_addr            = (struct sockaddr_in6 *)addr;
+        addr_len             = sizeof(*ipv6_addr);
+        ipv6_addr->sin6_port = net_port;
+        vaddr                = (void *)&(((struct sockaddr_in6 *)addr)->sin6_addr);
+    }
+    else
+    {
+        fprintf(stderr, "Internal error: addr->ss_family must be AF_INET or AF_INET6, was: %d\n", addr->ss_family);
+        exit(EXIT_FAILURE);
+    }
+
+    if(inet_ntop(addr->ss_family, vaddr, addr_str, sizeof(addr_str)) == NULL)
+    {
+        perror("inet_ntop");
+        exit(EXIT_FAILURE);
+    }
+
+    if(bind(sockfd, (struct sockaddr *)addr, addr_len) == -1)
+    {
+        perror("Binding failed");
+        fprintf(stderr, "Error code: %d\n", errno);
+        exit(EXIT_FAILURE);
+    }
+}
 
 int handle_request(int client_fd)
 {
