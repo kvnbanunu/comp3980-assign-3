@@ -141,6 +141,7 @@ int main(int argc, char *argv[])
 
             exit(EXIT_SUCCESS);
         }
+        close(client_fd);
         if(exit_flag)
         {
             break;
