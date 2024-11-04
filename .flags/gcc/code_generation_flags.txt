@@ -1,0 +1,1 @@
+-fdelete-dead-exceptions -fno-common -fno-verbose-asm -frecord-gcc-switches -fpic -fPIC -fno-plt -fno-fast-math -fmath-errno -ftrapping-math -fno-unsafe-math-optimizations

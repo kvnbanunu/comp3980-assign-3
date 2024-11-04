@@ -1,0 +1,1 @@
+-g -g1 -g2 -ggdb -ggdb0 -ggdb1 -ggdb2 -gpubnames -grecord-gcc-switches -gno-strict-dwarf -gcolumn-info

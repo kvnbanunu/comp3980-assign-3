@@ -1,0 +1,1 @@
+-g -g1 -g2 -ggdb -ggdb0 -ggdb1 -ggdb2 -fno-eliminate-unused-debug-symbols -fno-merge-debug-strings -fvar-tracking-assignments -gdescribe-dies -gpubnames -grecord-gcc-switches -gno-strict-dwarf -gcolumn-info -gstatement-frontiers -gvariable-location-views -gno-internal-reset-location-views -fno-eliminate-unused-debug-types

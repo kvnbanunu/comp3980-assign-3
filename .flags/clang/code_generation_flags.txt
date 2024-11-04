@@ -1,0 +1,1 @@
+-fno-common -fno-verbose-asm -frecord-gcc-switches -fpic -fPIC -fno-plt -fno-fast-math -fstrict-float-cast-overflow -fmath-errno -ftrapping-math -fno-unsafe-math-optimizations

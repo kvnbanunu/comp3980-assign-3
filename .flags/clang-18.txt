@@ -1,0 +1,299 @@
+error: unknown warning option '-Wformat=1'; did you mean '-Wformat=2'? [-Werror,-Wunknown-warning-option]
+-Wformat=1 is not supported
+------------------------------
+error: unknown warning option '-Wformat-overflow=1'; did you mean '-Wformat-overflow'? [-Werror,-Wunknown-warning-option]
+-Wformat-overflow=1 is not supported
+------------------------------
+error: unknown warning option '-Wformat-overflow=2'; did you mean '-Wformat-overflow'? [-Werror,-Wunknown-warning-option]
+-Wformat-overflow=2 is not supported
+------------------------------
+error: unknown warning option '-Wformat-signedness' [-Werror,-Wunknown-warning-option]
+-Wformat-signedness is not supported
+------------------------------
+error: unknown warning option '-Wformat-truncation=1'; did you mean '-Wformat-truncation'? [-Werror,-Wunknown-warning-option]
+-Wformat-truncation=1 is not supported
+------------------------------
+error: unknown warning option '-Wformat-truncation=2'; did you mean '-Wformat-truncation'? [-Werror,-Wunknown-warning-option]
+-Wformat-truncation=2 is not supported
+------------------------------
+error: unknown warning option '-Wnonnull-compare' [-Werror,-Wunknown-warning-option]
+-Wnonnull-compare is not supported
+------------------------------
+error: unknown warning option '-Wimplicit-fallthrough=1'; did you mean '-Wimplicit-fallthrough'? [-Werror,-Wunknown-warning-option]
+-Wimplicit-fallthrough=1 is not supported
+------------------------------
+error: unknown warning option '-Wimplicit-fallthrough=2'; did you mean '-Wimplicit-fallthrough'? [-Werror,-Wunknown-warning-option]
+-Wimplicit-fallthrough=2 is not supported
+------------------------------
+error: unknown warning option '-Wimplicit-fallthrough=3'; did you mean '-Wimplicit-fallthrough'? [-Werror,-Wunknown-warning-option]
+-Wimplicit-fallthrough=3 is not supported
+------------------------------
+error: unknown warning option '-Wimplicit-fallthrough=4'; did you mean '-Wimplicit-fallthrough'? [-Werror,-Wunknown-warning-option]
+-Wimplicit-fallthrough=4 is not supported
+------------------------------
+error: unknown warning option '-Wimplicit-fallthrough=5'; did you mean '-Wimplicit-fallthrough'? [-Werror,-Wunknown-warning-option]
+-Wimplicit-fallthrough=5 is not supported
+------------------------------
+error: unknown warning option '-Wmissing-attributes' [-Werror,-Wunknown-warning-option]
+-Wmissing-attributes is not supported
+------------------------------
+error: unknown warning option '-Wmismatched-dealloc'; did you mean '-Wmismatched-tags'? [-Werror,-Wunknown-warning-option]
+-Wmismatched-dealloc is not supported
+------------------------------
+error: unknown warning option '-Wmultistatement-macros'; did you mean '-Wunused-macros'? [-Werror,-Wunknown-warning-option]
+-Wmultistatement-macros is not supported
+------------------------------
+error: unknown warning option '-Wshift-overflow=1'; did you mean '-Wshift-overflow'? [-Werror,-Wunknown-warning-option]
+-Wshift-overflow=1 is not supported
+------------------------------
+error: unknown warning option '-Wshift-overflow=2'; did you mean '-Wshift-overflow'? [-Werror,-Wunknown-warning-option]
+-Wshift-overflow=2 is not supported
+------------------------------
+error: unknown warning option '-Wsync-nand' [-Werror,-Wunknown-warning-option]
+-Wsync-nand is not supported
+------------------------------
+error: unknown warning option '-Wtrivial-auto-var-init'; did you mean '-Wauto-var-id'? [-Werror,-Wunknown-warning-option]
+-Wtrivial-auto-var-init is not supported
+------------------------------
+error: unknown warning option '-Wunused-const-variable=1'; did you mean '-Wunused-const-variable'? [-Werror,-Wunknown-warning-option]
+-Wunused-const-variable=1 is not supported
+------------------------------
+error: unknown warning option '-Wunused-const-variable=2'; did you mean '-Wunused-const-variable'? [-Werror,-Wunknown-warning-option]
+-Wunused-const-variable=2 is not supported
+------------------------------
+error: unknown warning option '-Wmaybe-uninitialized'; did you mean '-Wuninitialized'? [-Werror,-Wunknown-warning-option]
+-Wmaybe-uninitialized is not supported
+------------------------------
+error: unknown warning option '-Wstrict-aliasing=3'; did you mean '-Wstring-plus-int'? [-Werror,-Wunknown-warning-option]
+-Wstrict-aliasing=3 is not supported
+------------------------------
+error: unknown warning option '-Wstringop-overflow'; did you mean '-Wshift-overflow'? [-Werror,-Wunknown-warning-option]
+-Wstringop-overflow is not supported
+------------------------------
+error: unknown warning option '-Wstringop-overflow=1'; did you mean '-Wshift-overflow'? [-Werror,-Wunknown-warning-option]
+-Wstringop-overflow=1 is not supported
+------------------------------
+error: unknown warning option '-Wstringop-overflow=2'; did you mean '-Wshift-overflow'? [-Werror,-Wunknown-warning-option]
+-Wstringop-overflow=2 is not supported
+------------------------------
+error: unknown warning option '-Wstringop-overflow=3'; did you mean '-Wshift-overflow'? [-Werror,-Wunknown-warning-option]
+-Wstringop-overflow=3 is not supported
+------------------------------
+error: unknown warning option '-Wstringop-overflow=4'; did you mean '-Wshift-overflow'? [-Werror,-Wunknown-warning-option]
+-Wstringop-overflow=4 is not supported
+------------------------------
+error: unknown warning option '-Wsuggest-attribute=pure'; did you mean '-WNSObject-attribute'? [-Werror,-Wunknown-warning-option]
+-Wsuggest-attribute=pure is not supported
+------------------------------
+error: unknown warning option '-Wsuggest-attribute=const' [-Werror,-Wunknown-warning-option]
+-Wsuggest-attribute=const is not supported
+------------------------------
+error: unknown warning option '-Wsuggest-attribute=noreturn' [-Werror,-Wunknown-warning-option]
+-Wsuggest-attribute=noreturn is not supported
+------------------------------
+error: unknown warning option '-Wsuggest-attribute=malloc' [-Werror,-Wunknown-warning-option]
+-Wsuggest-attribute=malloc is not supported
+------------------------------
+error: unknown warning option '-Wsuggest-attribute=format'; did you mean '-Wproperty-attribute-mismatch'? [-Werror,-Wunknown-warning-option]
+-Wsuggest-attribute=format is not supported
+------------------------------
+error: unknown warning option '-Wsuggest-attribute=cold'; did you mean '-WNSObject-attribute'? [-Werror,-Wunknown-warning-option]
+-Wsuggest-attribute=cold is not supported
+------------------------------
+error: unknown warning option '-Walloc-zero'; did you mean '-Walloca'? [-Werror,-Wunknown-warning-option]
+-Walloc-zero is not supported
+------------------------------
+error: unknown warning option '-Walloca-larger-than'; did you mean '-Wframe-larger-than'? [-Werror,-Wunknown-warning-option]
+-Walloca-larger-than is not supported
+------------------------------
+error: unknown warning option '-Warith-conversion' [-Werror,-Wunknown-warning-option]
+-Warith-conversion is not supported
+------------------------------
+error: unknown warning option '-Warray-bounds=1'; did you mean '-Warray-bounds'? [-Werror,-Wunknown-warning-option]
+-Warray-bounds=1 is not supported
+------------------------------
+error: unknown warning option '-Warray-bounds=2'; did you mean '-Warray-bounds'? [-Werror,-Wunknown-warning-option]
+-Warray-bounds=2 is not supported
+------------------------------
+error: unknown warning option '-Warray-compare' [-Werror,-Wunknown-warning-option]
+-Warray-compare is not supported
+------------------------------
+error: unknown warning option '-Warray-parameter=1'; did you mean '-Warray-parameter'? [-Werror,-Wunknown-warning-option]
+-Warray-parameter=1 is not supported
+------------------------------
+error: unknown warning option '-Warray-parameter=2'; did you mean '-Warray-parameter'? [-Werror,-Wunknown-warning-option]
+-Warray-parameter=2 is not supported
+------------------------------
+error: unknown warning option '-Wattribute-alias=1' [-Werror,-Wunknown-warning-option]
+-Wattribute-alias=1 is not supported
+------------------------------
+error: unknown warning option '-Wattribute-alias=2' [-Werror,-Wunknown-warning-option]
+-Wattribute-alias=2 is not supported
+------------------------------
+error: unknown warning option '-Wno-attribute-alias' [-Werror,-Wunknown-warning-option]
+-Wno-attribute-alias is not supported
+------------------------------
+error: unknown warning option '-Wbidi-chars=unpaired,any,ucn' [-Werror,-Wunknown-warning-option]
+-Wbidi-chars=unpaired,any,ucn is not supported
+------------------------------
+error: unknown warning option '-Wbool-compare' [-Werror,-Wunknown-warning-option]
+-Wbool-compare is not supported
+------------------------------
+error: unknown warning option '-Wduplicated-branches' [-Werror,-Wunknown-warning-option]
+-Wduplicated-branches is not supported
+------------------------------
+error: unknown warning option '-Wduplicated-cond' [-Werror,-Wunknown-warning-option]
+-Wduplicated-cond is not supported
+------------------------------
+error: unknown warning option '-Wzero-length-bounds'; did you mean '-Wzero-length-array'? [-Werror,-Wunknown-warning-option]
+-Wzero-length-bounds is not supported
+------------------------------
+error: unknown warning option '-Wtrampolines' [-Werror,-Wunknown-warning-option]
+-Wtrampolines is not supported
+------------------------------
+error: unknown warning option '-Wshadow=global'; did you mean '-Wshadow-all'? [-Werror,-Wunknown-warning-option]
+-Wshadow=global is not supported
+------------------------------
+error: unknown warning option '-Wshadow=local' [-Werror,-Wunknown-warning-option]
+-Wshadow=local is not supported
+------------------------------
+error: unknown warning option '-Wshadow=compatible-local'; did you mean '-Wshadow-uncaptured-local'? [-Werror,-Wunknown-warning-option]
+-Wshadow=compatible-local is not supported
+------------------------------
+error: unknown warning option '-Wunsafe-loop-optimizations' [-Werror,-Wunknown-warning-option]
+-Wunsafe-loop-optimizations is not supported
+------------------------------
+error: unknown warning option '-Wtsan' [-Werror,-Wunknown-warning-option]
+-Wtsan is not supported
+------------------------------
+error: unknown warning option '-Wcast-align=strict'; did you mean '-Wcast-align'? [-Werror,-Wunknown-warning-option]
+-Wcast-align=strict is not supported
+------------------------------
+error: unknown warning option '-Wclobbered' [-Werror,-Wunknown-warning-option]
+-Wclobbered is not supported
+------------------------------
+error: unknown warning option '-Wdangling-pointer' [-Werror,-Wunknown-warning-option]
+-Wdangling-pointer is not supported
+------------------------------
+error: unknown warning option '-Wdangling-pointer=1'; did you mean '-Wdangling-field'? [-Werror,-Wunknown-warning-option]
+-Wdangling-pointer=1 is not supported
+------------------------------
+error: unknown warning option '-Wdangling-pointer=2'; did you mean '-Wdangling-field'? [-Werror,-Wunknown-warning-option]
+-Wdangling-pointer=2 is not supported
+------------------------------
+error: unknown warning option '-Wenum-int-mismatch'; did you mean '-Walign-mismatch'? [-Werror,-Wunknown-warning-option]
+-Wenum-int-mismatch is not supported
+------------------------------
+error: unknown warning option '-Wjump-misses-init' [-Werror,-Wunknown-warning-option]
+-Wjump-misses-init is not supported
+------------------------------
+error: unknown warning option '-Wmemset-elt-size'; did you mean '-Wvec-elem-size'? [-Werror,-Wunknown-warning-option]
+-Wmemset-elt-size is not supported
+------------------------------
+error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+-Wlogical-op is not supported
+------------------------------
+error: unknown warning option '-Wold-style-declaration'; did you mean '-Wout-of-line-declaration'? [-Werror,-Wunknown-warning-option]
+-Wold-style-declaration is not supported
+------------------------------
+error: unknown warning option '-Wmissing-parameter-type' [-Werror,-Wunknown-warning-option]
+-Wmissing-parameter-type is not supported
+------------------------------
+error: unknown warning option '-Wnormalized=nfkc'; did you mean '-Wformat-pedantic'? [-Werror,-Wunknown-warning-option]
+-Wnormalized=nfkc is not supported
+------------------------------
+error: unknown warning option '-Wopenacc-parallelism' [-Werror,-Wunknown-warning-option]
+-Wopenacc-parallelism is not supported
+------------------------------
+error: unknown warning option '-Wopenmp-simd'; did you mean '-Wopenmp'? [-Werror,-Wunknown-warning-option]
+-Wopenmp-simd is not supported
+------------------------------
+error: unknown warning option '-Wpacked-not-aligned'; did you mean '-Wpacked-non-pod'? [-Werror,-Wunknown-warning-option]
+-Wpacked-not-aligned is not supported
+------------------------------
+error: unknown warning option '-Wrestrict' [-Werror,-Wunknown-warning-option]
+-Wrestrict is not supported
+------------------------------
+error: unknown warning option '-Winterference-size' [-Werror,-Wunknown-warning-option]
+-Winterference-size is not supported
+------------------------------
+error: unknown warning option '-Wvector-operation-performance' [-Werror,-Wunknown-warning-option]
+-Wvector-operation-performance is not supported
+------------------------------
+error: unknown warning option '-Wvla-parameter'; did you mean '-Warray-parameter'? [-Werror,-Wunknown-warning-option]
+-Wvla-parameter is not supported
+------------------------------
+clang-18: error: invalid argument '' to -Wframe-larger-than=
+-Wframe-larger-than is not supported
+------------------------------
+error: unknown warning option '-Wfriend-enum' [-Werror,-Wunknown-warning-option]
+-Wfriend-enum is not supported
+------------------------------
+error: unknown warning option '-Wtemplate-in-declaration-name'; did you mean '-Wdeprecated-declarations'? [-Werror,-Wunknown-warning-option]
+-Wtemplate-in-declaration-name is not supported
+------------------------------
+clang-18: error: argument unused during compilation: '-fsanitize-address-use-after-scope' [-Werror,-Wunused-command-line-argument]
+-fsanitize-address-use-after-scope is not supported
+------------------------------
+clang-18: error: invalid argument '-fsanitize=pointer-compare' only allowed with '-fsanitize=address'
+-fsanitize=pointer-compare is not supported
+------------------------------
+clang-18: error: invalid argument '-fsanitize=pointer-subtract' only allowed with '-fsanitize=address'
+-fsanitize=pointer-subtract is not supported
+------------------------------
+clang-18: error: argument unused during compilation: '-fsanitize-address-use-after-return=always' [-Werror,-Wunused-command-line-argument]
+-fsanitize-address-use-after-return=always is not supported
+------------------------------
+clang-18: error: invalid argument '-fsanitize=cfi' only allowed with '-flto'
+clang-18: error: invalid argument '-fsanitize=cfi' only allowed with '-fvisibility='
+-fsanitize=cfi is not supported
+------------------------------
+clang-18: error: argument unused during compilation: '-fsanitize-cfi-icall-generalize-pointers' [-Werror,-Wunused-command-line-argument]
+-fsanitize-cfi-icall-generalize-pointers is not supported
+------------------------------
+clang-18: error: argument unused during compilation: '-fsanitize-cfi-icall-experimental-normalize-integers' [-Werror,-Wunused-command-line-argument]
+-fsanitize-cfi-icall-experimental-normalize-integers is not supported
+------------------------------
+clang-18: error: argument unused during compilation: '-fsanitize-cfi-canonical-jump-tables' [-Werror,-Wunused-command-line-argument]
+-fsanitize-cfi-canonical-jump-tables is not supported
+------------------------------
+clang-18: error: invalid argument '-fsanitize=cfi-icall' only allowed with '-flto'
+-fsanitize=cfi-icall is not supported
+------------------------------
+clang-18: error: invalid argument '-fsanitize=cfi-derived-cast' only allowed with '-flto'
+clang-18: error: invalid argument '-fsanitize=cfi-derived-cast' only allowed with '-fvisibility='
+-fsanitize=cfi-derived-cast is not supported
+------------------------------
+clang-18: error: invalid argument '-fsanitize=cfi-unrelated-cast' only allowed with '-flto'
+clang-18: error: invalid argument '-fsanitize=cfi-unrelated-cast' only allowed with '-fvisibility='
+-fsanitize=cfi-unrelated-cast is not supported
+------------------------------
+clang-18: error: invalid argument '-fsanitize=cfi-nvcall' only allowed with '-flto'
+clang-18: error: invalid argument '-fsanitize=cfi-nvcall' only allowed with '-fvisibility='
+-fsanitize=cfi-nvcall is not supported
+------------------------------
+clang-18: error: invalid argument '-fsanitize=cfi-mfcall' only allowed with '-flto'
+clang-18: error: invalid argument '-fsanitize=cfi-mfcall' only allowed with '-fvisibility='
+-fsanitize=cfi-mfcall is not supported
+------------------------------
+clang-18: error: argument unused during compilation: '-dfsan-combine-offset-labels-on-gep' [-Werror,-Wunused-command-line-argument]
+-dfsan-combine-offset-labels-on-gep is not supported
+------------------------------
+clang-18: error: argument unused during compilation: '-dfsan-conditional-callbacks' [-Werror,-Wunused-command-line-argument]
+-dfsan-conditional-callbacks is not supported
+------------------------------
+clang-18: error: argument unused during compilation: '-dfsan-track-origins=2' [-Werror,-Wunused-command-line-argument]
+-dfsan-track-origins=2 is not supported
+------------------------------
+clang-18: error: argument unused during compilation: '-fsanitize-memory-track-origins' [-Werror,-Wunused-command-line-argument]
+-fsanitize-memory-track-origins is not supported
+------------------------------
+clang-18: error: unsupported argument 'bounds-strict' to option '-fsanitize='
+-fsanitize=bounds-strict is not supported
+------------------------------
+clang-18: error: unsupported option '-fsanitize=objc-cast' for target 'x86_64-pc-linux-gnu'
+-fsanitize=objc-cast is not supported
+------------------------------
+error: invalid value 'check' in '-fcf-protection=check'
+-fcf-protection=check is not supported
+------------------------------

@@ -1,0 +1,1 @@
+-pg -fprofile-arcs --coverage -ftest-coverage -fprofile-update=prefer-atomic -fstack-protector-all -fstack-check -finstrument-functions

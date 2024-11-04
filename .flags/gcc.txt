@@ -1,0 +1,2185 @@
+cc1: error: ‘-Wabi’ won’t warn about anything [-Werror=abi]
+cc1: note: ‘-Wabi’ warns about differences from the most up-to-date ABI, which is also used by default
+cc1: note: use e.g. ‘-Wabi=11’ to warn about changes from GCC 7
+cc1: all warnings being treated as errors
+-Wabi is not supported
+------------------------------
+cc1: error: ‘-Wformat-nonliteral’ ignored without ‘-Wformat’ [-Werror=format-nonliteral]
+cc1: all warnings being treated as errors
+-Wformat-nonliteral is not supported
+------------------------------
+cc1: error: ‘-Wformat-security’ ignored without ‘-Wformat’ [-Werror=format-security]
+cc1: all warnings being treated as errors
+-Wformat-security is not supported
+------------------------------
+cc1: error: ‘-Wformat-y2k’ ignored without ‘-Wformat’ [-Werror=format-y2k]
+cc1: all warnings being treated as errors
+-Wformat-y2k is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Walloca-larger-than’; did you mean ‘-Walloca-larger-than=’?
+-Walloca-larger-than is not supported
+------------------------------
+gcc: error: invalid argument in option ‘-Wbidi-chars=unpaired,any,ucn’
+gcc: note: ‘unpaired’ is mutually exclusive with ‘any’ and cannot be specified together
+-Wbidi-chars=unpaired,any,ucn is not supported
+------------------------------
+cc1: error: command-line option ‘-Wc++11-compat’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wc++11-compat is not supported
+------------------------------
+cc1: error: command-line option ‘-Wc++14-compat’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wc++14-compat is not supported
+------------------------------
+cc1: error: command-line option ‘-Wc++17-compat’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wc++17-compat is not supported
+------------------------------
+cc1: error: command-line option ‘-Wc++20-compat’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wc++20-compat is not supported
+------------------------------
+cc1: error: command-line option ‘-Winterference-size’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Winterference-size is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-W#pragma-messages’
+-W#pragma-messages is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-WCFString-literal’
+-WCFString-literal is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-WCL4’
+-WCL4 is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-WIndependentClass-attribute’
+-WIndependentClass-attribute is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wabstract-final-class’
+-Wabstract-final-class is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wabstract-vbase-init’
+-Wabstract-vbase-init is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Waddress-of-temporary’
+-Waddress-of-temporary is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Waix-compat’; did you mean ‘-Wc++-compat’?
+-Waix-compat is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Walign-mismatch’; did you mean ‘-Wreturn-mismatch’?
+-Walign-mismatch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Walloca-with-align-alignof’
+-Walloca-with-align-alignof is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Walways-inline-coroutine’
+-Walways-inline-coroutine is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wambiguous-delete’
+-Wambiguous-delete is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wambiguous-ellipsis’
+-Wambiguous-ellipsis is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wambiguous-macro’
+-Wambiguous-macro is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wambiguous-member-template’
+-Wambiguous-member-template is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wambiguous-reversed-operator’
+-Wambiguous-reversed-operator is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wanalyzer-incompatible-plugin’
+-Wanalyzer-incompatible-plugin is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wandroid-unversioned-fallback’
+-Wandroid-unversioned-fallback is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wanon-enum-enum-conversion’; did you mean ‘--warn-no-enum-conversion’?
+-Wanon-enum-enum-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wanonymous-pack-parens’
+-Wanonymous-pack-parens is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wapinotes’
+-Wapinotes is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Warc’
+-Warc is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Warc-bridge-casts-disallowed-in-nonarc’
+-Warc-bridge-casts-disallowed-in-nonarc is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Warc-maybe-repeated-use-of-weak’
+-Warc-maybe-repeated-use-of-weak is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Warc-non-pod-memaccess’; did you mean ‘--warn-no-class-memaccess’?
+-Warc-non-pod-memaccess is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Warc-performSelector-leaks’
+-Warc-performSelector-leaks is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Warc-repeated-use-of-weak’
+-Warc-repeated-use-of-weak is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Warc-retain-cycles’
+-Warc-retain-cycles is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Warc-unsafe-retained-assign’
+-Warc-unsafe-retained-assign is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wargument-outside-range’; did you mean ‘-Wswitch-outside-range’?
+-Wargument-outside-range is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wargument-undefined-behaviour’
+-Wargument-undefined-behaviour is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Warray-bounds-pointer-arithmetic’
+-Warray-bounds-pointer-arithmetic is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wasm’; did you mean ‘-fasm’?
+-Wasm is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wasm-operand-widths’
+-Wasm-operand-widths is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wassign-enum’
+-Wassign-enum is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wassume’
+-Wassume is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wat-protocol’; did you mean ‘-Wno-protocol’?
+-Wat-protocol is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Watimport-in-framework-header’
+-Watimport-in-framework-header is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Watomic-access’
+-Watomic-access is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Watomic-alignment’
+-Watomic-alignment is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Watomic-implicit-seq-cst’
+-Watomic-implicit-seq-cst is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Watomic-memory-ordering’
+-Watomic-memory-ordering is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Watomic-properties’
+-Watomic-properties is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Watomic-property-with-user-defined-accessor’
+-Watomic-property-with-user-defined-accessor is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wattribute-packed-for-bitfield’
+-Wattribute-packed-for-bitfield is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wauto-decl-extensions’
+-Wauto-decl-extensions is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wauto-disable-vptr-sanitizer’
+-Wauto-disable-vptr-sanitizer is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wauto-import’; did you mean ‘-Wno-import’?
+-Wauto-import is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wauto-storage-class’
+-Wauto-storage-class is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wauto-var-id’
+-Wauto-var-id is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wavailability’
+-Wavailability is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wavr-rtlib-linking-quirks’
+-Wavr-rtlib-linking-quirks is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbackend-plugin’
+-Wbackend-plugin is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbackslash-newline-escape’
+-Wbackslash-newline-escape is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbinary-literal’
+-Wbinary-literal is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbind-to-temporary-copy’
+-Wbind-to-temporary-copy is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbinding-in-condition’
+-Wbinding-in-condition is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbit-int-extension’
+-Wbit-int-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbitfield-constant-conversion’
+-Wbitfield-constant-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbitfield-enum-conversion’; did you mean ‘-Wno-enum-conversion’?
+-Wbitfield-enum-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbitfield-width’
+-Wbitfield-width is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbitwise-conditional-parentheses’
+-Wbitwise-conditional-parentheses is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbitwise-instead-of-logical’
+-Wbitwise-instead-of-logical is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbitwise-op-parentheses’
+-Wbitwise-op-parentheses is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wblock-capture-autoreleasing’
+-Wblock-capture-autoreleasing is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbool-conversion’; did you mean ‘-Wno-conversion’?
+-Wbool-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbraced-scalar-init’
+-Wbraced-scalar-init is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbranch-protection’; did you mean ‘-Wstack-protector’?
+-Wbranch-protection is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbridge-cast’
+-Wbridge-cast is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbuiltin-assume-aligned-alignment’
+-Wbuiltin-assume-aligned-alignment is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbuiltin-memcpy-chk-size’
+-Wbuiltin-memcpy-chk-size is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wbuiltin-requires-header’
+-Wbuiltin-requires-header is not supported
+------------------------------
+cc1: error: command-line option ‘-Wc++23-extensions’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wc++23-extensions is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wc++23-lambda-attributes’
+-Wc++23-lambda-attributes is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcall-to-pure-virtual-from-ctor-dtor’
+-Wcall-to-pure-virtual-from-ctor-dtor is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcalled-once-parameter’
+-Wcalled-once-parameter is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcast-calling-convention’
+-Wcast-calling-convention is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcast-function-type-strict’; did you mean ‘-Wcast-function-type’?
+-Wcast-function-type-strict is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcast-of-sel-type’
+-Wcast-of-sel-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcast-qual-unrelated’
+-Wcast-qual-unrelated is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wchar-align’; did you mean ‘-Wcast-align’?
+-Wchar-align is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wclang-cl-pch’
+-Wclang-cl-pch is not supported
+------------------------------
+cc1: error: command-line option ‘-Wclass-conversion’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wclass-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wclass-varargs’; did you mean ‘-Wno-varargs’?
+-Wclass-varargs is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcmse-union-leak’
+-Wcmse-union-leak is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcomma’; did you mean ‘-Wcomment’?
+-Wcomma is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcompletion-handler’
+-Wcompletion-handler is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcomplex-component-init’
+-Wcomplex-component-init is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcompound-token-split’
+-Wcompound-token-split is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcompound-token-split-by-macro’
+-Wcompound-token-split-by-macro is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcompound-token-split-by-space’
+-Wcompound-token-split-by-space is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wconditional-type-mismatch’; did you mean ‘-Wno-lto-type-mismatch’?
+-Wconditional-type-mismatch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wconditional-uninitialized’; did you mean ‘-Wno-uninitialized’?
+-Wconditional-uninitialized is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wconfig-macros’
+-Wconfig-macros is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wconstant-conversion’; did you mean ‘-Wno-int-conversion’?
+-Wconstant-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wconstant-evaluated’
+-Wconstant-evaluated is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wconstant-logical-operand’
+-Wconstant-logical-operand is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wconstexpr-not-const’
+-Wconstexpr-not-const is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wconsumed’
+-Wconsumed is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcoro-non-aligned-allocation-function’
+-Wcoro-non-aligned-allocation-function is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcoroutine’; did you mean ‘-fcoroutines’?
+-Wcoroutine is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcoroutine-missing-unhandled-exception’
+-Wcoroutine-missing-unhandled-exception is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcovered-switch-default’; did you mean ‘-Wno-switch-default’?
+-Wcovered-switch-default is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcstring-format-directive’
+-Wcstring-format-directive is not supported
+------------------------------
+cc1: error: command-line option ‘-Wctad-maybe-unsupported’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wctad-maybe-unsupported is not supported
+------------------------------
+cc1: error: command-line option ‘-Wctor-dtor-privacy’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wctor-dtor-privacy is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wctu’
+-Wctu is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcuda-compat’; did you mean ‘-Wc++-compat’?
+-Wcuda-compat is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcustom-atomic-properties’
+-Wcustom-atomic-properties is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wcxx-attribute-extension’
+-Wcxx-attribute-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdangling’
+-Wdangling is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdangling-field’; did you mean ‘-Wdangling-else’?
+-Wdangling-field is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdangling-gsl’; did you mean ‘-Wdangling-else’?
+-Wdangling-gsl is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdangling-initializer-list’
+-Wdangling-initializer-list is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdarwin-sdk-settings’
+-Wdarwin-sdk-settings is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdealloc-in-category’
+-Wdealloc-in-category is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdebug-compression-unavailable’
+-Wdebug-compression-unavailable is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdefaulted-function-deleted’
+-Wdefaulted-function-deleted is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdelegating-ctor-cycles’
+-Wdelegating-ctor-cycles is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdelete-abstract-non-virtual-dtor’; did you mean ‘-Wdelete-non-virtual-dtor’?
+-Wdelete-abstract-non-virtual-dtor is not supported
+------------------------------
+cc1: error: command-line option ‘-Wdelete-incomplete’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wdelete-incomplete is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdelete-non-abstract-non-virtual-dtor’; did you mean ‘-Wdelete-non-virtual-dtor’?
+-Wdelete-non-abstract-non-virtual-dtor is not supported
+------------------------------
+cc1: error: command-line option ‘-Wdelete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wdelete-non-virtual-dtor is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdelimited-escape-sequence-extension’
+-Wdelimited-escape-sequence-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecate-lax-vec-conv-all’
+-Wdeprecate-lax-vec-conv-all is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-altivec-src-compat’
+-Wdeprecated-altivec-src-compat is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-anon-enum-enum-conversion’; did you mean ‘-Wdeprecated-enum-enum-conversion’?
+-Wdeprecated-anon-enum-enum-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-array-compare’
+-Wdeprecated-array-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-attributes’; did you mean ‘-Wignored-attributes’?
+-Wdeprecated-attributes is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-builtins’; did you mean ‘-Wdeprecated-declarations’?
+-Wdeprecated-builtins is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-comma-subscript’
+-Wdeprecated-comma-subscript is not supported
+------------------------------
+cc1: error: command-line option ‘-Wdeprecated-copy’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wdeprecated-copy is not supported
+------------------------------
+cc1: error: command-line option ‘-Wdeprecated-copy-dtor’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wdeprecated-copy-dtor is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-copy-with-dtor’; did you mean ‘-Wdeprecated-copy-dtor’?
+-Wdeprecated-copy-with-dtor is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-copy-with-user-provided-copy’
+-Wdeprecated-copy-with-user-provided-copy is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-copy-with-user-provided-dtor’
+-Wdeprecated-copy-with-user-provided-dtor is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-coroutine’; did you mean ‘-Wdeprecated-copy’?
+-Wdeprecated-coroutine is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-dynamic-exception-spec’
+-Wdeprecated-dynamic-exception-spec is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-enum-compare’
+-Wdeprecated-enum-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-enum-compare-conditional’; did you mean ‘-Wdeprecated-enum-float-conversion’?
+-Wdeprecated-enum-compare-conditional is not supported
+------------------------------
+cc1: error: command-line option ‘-Wdeprecated-enum-enum-conversion’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wdeprecated-enum-enum-conversion is not supported
+------------------------------
+cc1: error: command-line option ‘-Wdeprecated-enum-float-conversion’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wdeprecated-enum-float-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-implementations’; did you mean ‘-Wdeprecated-declarations’?
+-Wdeprecated-implementations is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-increment-bool’
+-Wdeprecated-increment-bool is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-literal-operator’
+-Wdeprecated-literal-operator is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-module-dot-map’
+-Wdeprecated-module-dot-map is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-non-prototype’
+-Wdeprecated-non-prototype is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-objc-isa-usage’
+-Wdeprecated-objc-isa-usage is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-objc-pointer-introspection’
+-Wdeprecated-objc-pointer-introspection is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-objc-pointer-introspection-performSelector’
+-Wdeprecated-objc-pointer-introspection-performSelector is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-pragma’; did you mean ‘-Wdeprecated-copy’?
+-Wdeprecated-pragma is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-redundant-constexpr-static-def’
+-Wdeprecated-redundant-constexpr-static-def is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-static-analyzer-flag’
+-Wdeprecated-static-analyzer-flag is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-this-capture’
+-Wdeprecated-this-capture is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-type’; did you mean ‘-Wdeprecated-copy’?
+-Wdeprecated-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-volatile’; did you mean ‘-Wdeprecated-copy’?
+-Wdeprecated-volatile is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdeprecated-writable-strings’
+-Wdeprecated-writable-strings is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdirect-ivar-access’; did you mean ‘-mdirect-extern-access’?
+-Wdirect-ivar-access is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdisabled-macro-expansion’; did you mean ‘-ftrack-macro-expansion’?
+-Wdisabled-macro-expansion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdiscard-qual’; did you mean ‘-Wcast-qual’?
+-Wdiscard-qual is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdistributed-object-modifiers’
+-Wdistributed-object-modifiers is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdivision-by-zero’; did you mean ‘-Wdiv-by-zero’?
+-Wdivision-by-zero is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdll-attribute-on-redeclaration’
+-Wdll-attribute-on-redeclaration is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdllexport-explicit-instantiation-decl’
+-Wdllexport-explicit-instantiation-decl is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdllimport-static-field-def’
+-Wdllimport-static-field-def is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdocumentation’
+-Wdocumentation is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdocumentation-deprecated-sync’
+-Wdocumentation-deprecated-sync is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdocumentation-html’
+-Wdocumentation-html is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdocumentation-pedantic’
+-Wdocumentation-pedantic is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdocumentation-unknown-command’
+-Wdocumentation-unknown-command is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdollar-in-identifier-extension’; did you mean ‘-fdollars-in-identifiers’?
+-Wdollar-in-identifier-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdtor-name’
+-Wdtor-name is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdtor-typedef’
+-Wdtor-typedef is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wduplicate-enum’; did you mean ‘-Wduplicated-cond’?
+-Wduplicate-enum is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wduplicate-method-arg’
+-Wduplicate-method-arg is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wduplicate-method-match’
+-Wduplicate-method-match is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wduplicate-protocol’
+-Wduplicate-protocol is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdxil-validation’
+-Wdxil-validation is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdynamic-class-memaccess’; did you mean ‘-Wno-class-memaccess’?
+-Wdynamic-class-memaccess is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wdynamic-exception-spec’
+-Wdynamic-exception-spec is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Weager-load-cxx-named-modules’
+-Weager-load-cxx-named-modules is not supported
+------------------------------
+cc1: error: command-line option ‘-Welaborated-enum-base’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Welaborated-enum-base is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Welaborated-enum-class’; did you mean ‘-Welaborated-enum-base’?
+-Welaborated-enum-class is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wembedded-directive’
+-Wembedded-directive is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wempty-decomposition’
+-Wempty-decomposition is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wempty-init-stmt’
+-Wempty-init-stmt is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wempty-translation-unit’
+-Wempty-translation-unit is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wencode-type’; did you mean ‘-felide-type’?
+-Wencode-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wenum-compare-conditional’
+-Wenum-compare-conditional is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wenum-compare-switch’; did you mean ‘-Wenum-compare’?
+-Wenum-compare-switch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wenum-constexpr-conversion’
+-Wenum-constexpr-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wenum-float-conversion’; did you mean ‘-Wno-float-conversion’?
+-Wenum-float-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wenum-too-large’; did you mean ‘-Wenum-compare’?
+-Wenum-too-large is not supported
+------------------------------
+cc1: error: command-line option ‘-Wexceptions’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wexceptions is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wexcess-initializers’
+-Wexcess-initializers is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wexcessive-regsave’
+-Wexcessive-regsave is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wexit-time-destructors’
+-Wexit-time-destructors is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wexperimental-header-units’
+-Wexperimental-header-units is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wexplicit-initialize-call’
+-Wexplicit-initialize-call is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wexplicit-ownership-type’
+-Wexplicit-ownership-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wexport-unnamed’; did you mean ‘-export-dynamic’?
+-Wexport-unnamed is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wextern-c-compat’
+-Wextern-c-compat is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wextern-initializer’; did you mean ‘-Wuninitialized’?
+-Wextern-initializer is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wextra-qualification’
+-Wextra-qualification is not supported
+------------------------------
+cc1: error: command-line option ‘-Wextra-semi’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wextra-semi is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wextra-semi-stmt’; did you mean ‘-Wextra-semi’?
+-Wextra-semi-stmt is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wextra-tokens’; did you mean ‘-Wextra-semi’?
+-Wextra-tokens is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfinal-dtor-non-final-class’
+-Wfinal-dtor-non-final-class is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfinal-macro’
+-Wfinal-macro is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfixed-enum-extension’
+-Wfixed-enum-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfixed-point-overflow’; did you mean ‘-Wshift-count-overflow’?
+-Wfixed-point-overflow is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wflag-enum’
+-Wflag-enum is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wflexible-array-extensions’
+-Wflexible-array-extensions is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfloat-overflow-conversion’; did you mean ‘-Wfloat-conversion’?
+-Wfloat-overflow-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfloat-zero-conversion’; did you mean ‘-Wfloat-conversion’?
+-Wfloat-zero-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfor-loop-analysis’
+-Wfor-loop-analysis is not supported
+------------------------------
+cc1: error: ‘-Wformat-extra-args’ ignored without ‘-Wformat’ [-Werror=format-extra-args]
+cc1: all warnings being treated as errors
+-Wformat-extra-args is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wformat-insufficient-args’
+-Wformat-insufficient-args is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wformat-invalid-specifier’
+-Wformat-invalid-specifier is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wformat-non-iso’
+-Wformat-non-iso is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wformat-overflow-non-kprintf’
+-Wformat-overflow-non-kprintf is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wformat-pedantic’; did you mean ‘-Wno-pedantic’?
+-Wformat-pedantic is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wformat-truncation-non-kprintf’
+-Wformat-truncation-non-kprintf is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wformat-type-confusion’
+-Wformat-type-confusion is not supported
+------------------------------
+cc1: error: ‘-Wformat-zero-length’ ignored without ‘-Wformat’ [-Werror=format-zero-length]
+cc1: all warnings being treated as errors
+-Wformat-zero-length is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfortify-source’
+-Wfortify-source is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfour-char-constants’
+-Wfour-char-constants is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wframe-larger-than’; did you mean ‘-Wframe-larger-than=’?
+-Wframe-larger-than is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wframework-include-private-from-public’
+-Wframework-include-private-from-public is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfriend-enum’
+-Wfriend-enum is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfunction-def-in-objc-container’
+-Wfunction-def-in-objc-container is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfunction-multiversion’
+-Wfunction-multiversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfuse-ld-path’
+-Wfuse-ld-path is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfuture-attribute-extensions’
+-Wfuture-attribute-extensions is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wfuture-compat’
+-Wfuture-compat is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wgeneric-type-extension’
+-Wgeneric-type-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wglobal-constructors’; did you mean ‘-felide-constructors’?
+-Wglobal-constructors is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wglobal-isel’; did you mean ‘-Wglobal-module’?
+-Wglobal-isel is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wheader-guard’
+-Wheader-guard is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wheader-hygiene’
+-Wheader-hygiene is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Whip-omp-target-directives’
+-Whip-omp-target-directives is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Whip-only’
+-Whip-only is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Whlsl-extensions’; did you mean ‘-fms-extensions’?
+-Whlsl-extensions is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Widiomatic-parentheses’; did you mean ‘-Wno-parentheses’?
+-Widiomatic-parentheses is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wignored-availability-without-sdk-settings’
+-Wignored-availability-without-sdk-settings is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wignored-gch’
+-Wignored-gch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wignored-optimization-argument’
+-Wignored-optimization-argument is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wignored-pragma-intrinsic’
+-Wignored-pragma-intrinsic is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wignored-pragma-optimize’
+-Wignored-pragma-optimize is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wignored-pragmas’; did you mean ‘-Wno-pragmas’?
+-Wignored-pragmas is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wignored-reference-qualifiers’; did you mean ‘-Wignored-qualifiers’?
+-Wignored-reference-qualifiers is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicit-atomic-properties’
+-Wimplicit-atomic-properties is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicit-const-int-float-conversion’
+-Wimplicit-const-int-float-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicit-conversion-floating-point-to-bool’
+-Wimplicit-conversion-floating-point-to-bool is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicit-exception-spec-mismatch’
+-Wimplicit-exception-spec-mismatch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicit-fallthrough-per-function’
+-Wimplicit-fallthrough-per-function is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicit-fixed-point-conversion’
+-Wimplicit-fixed-point-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicit-float-conversion’; did you mean ‘-Wno-float-conversion’?
+-Wimplicit-float-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicit-int-conversion’; did you mean ‘-Wno-int-conversion’?
+-Wimplicit-int-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicit-int-float-conversion’; did you mean ‘-Wdeprecated-enum-float-conversion’?
+-Wimplicit-int-float-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicit-retain-self’
+-Wimplicit-retain-self is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimplicitly-unsigned-literal’
+-Wimplicitly-unsigned-literal is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wimport-preprocessor-directive-pedantic’
+-Wimport-preprocessor-directive-pedantic is not supported
+------------------------------
+cc1: error: command-line option ‘-Winaccessible-base’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Winaccessible-base is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winclude-angled-in-module-purview’
+-Winclude-angled-in-module-purview is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winclude-next-absolute-path’
+-Winclude-next-absolute-path is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winclude-next-outside-header’
+-Winclude-next-outside-header is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincompatible-exception-spec’
+-Wincompatible-exception-spec is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincompatible-function-pointer-types’; did you mean ‘-Wincompatible-pointer-types’?
+-Wincompatible-function-pointer-types is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincompatible-function-pointer-types-strict’
+-Wincompatible-function-pointer-types-strict is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincompatible-library-redeclaration’
+-Wincompatible-library-redeclaration is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincompatible-ms-pragma-section’
+-Wincompatible-ms-pragma-section is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincompatible-ms-struct’
+-Wincompatible-ms-struct is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincompatible-pointer-types-discards-qualifiers’
+-Wincompatible-pointer-types-discards-qualifiers is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincompatible-property-type’; did you mean ‘-Wincompatible-pointer-types’?
+-Wincompatible-property-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincompatible-sysroot’
+-Wincompatible-sysroot is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincomplete-framework-module-declaration’
+-Wincomplete-framework-module-declaration is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincomplete-implementation’
+-Wincomplete-implementation is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincomplete-module’
+-Wincomplete-module is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincomplete-setjmp-declaration’
+-Wincomplete-setjmp-declaration is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincomplete-umbrella’
+-Wincomplete-umbrella is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winconsistent-dllimport’
+-Winconsistent-dllimport is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winconsistent-missing-destructor-override’
+-Winconsistent-missing-destructor-override is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winconsistent-missing-override’
+-Winconsistent-missing-override is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wincrement-bool’
+-Wincrement-bool is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winitializer-overrides’
+-Winitializer-overrides is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winjected-class-name’
+-Winjected-class-name is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winline-asm’; did you mean ‘-Winline’?
+-Winline-asm is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winline-namespace-reopened-noninline’
+-Winline-namespace-reopened-noninline is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winline-new-delete’; did you mean ‘-Wmismatched-new-delete’?
+-Winline-new-delete is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winstantiation-after-specialization’
+-Winstantiation-after-specialization is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wint-conversions’; did you mean ‘-Wint-conversion’?
+-Wint-conversions is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wint-to-void-pointer-cast’; did you mean ‘-Wint-to-pointer-cast’?
+-Wint-to-void-pointer-cast is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winteger-overflow’; did you mean ‘-Wno-overflow’?
+-Winteger-overflow is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-command-line-argument’
+-Winvalid-command-line-argument is not supported
+------------------------------
+cc1: error: command-line option ‘-Winvalid-constexpr’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Winvalid-constexpr is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-feature-combination’
+-Winvalid-feature-combination is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-iboutlet’; did you mean ‘-Winvalid-utf8’?
+-Winvalid-iboutlet is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-initializer-from-system-header’
+-Winvalid-initializer-from-system-header is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-ios-deployment-target’
+-Winvalid-ios-deployment-target is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-no-builtin-names’
+-Winvalid-no-builtin-names is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-noreturn’
+-Winvalid-noreturn is not supported
+------------------------------
+cc1: error: command-line option ‘-Winvalid-offsetof’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Winvalid-offsetof is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-or-nonexistent-directory’
+-Winvalid-or-nonexistent-directory is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-partial-specialization’
+-Winvalid-partial-specialization is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-pp-token’
+-Winvalid-pp-token is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-source-encoding’
+-Winvalid-source-encoding is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-static-assert-message’
+-Winvalid-static-assert-message is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-token-paste’
+-Winvalid-token-paste is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Winvalid-unevaluated-string’
+-Winvalid-unevaluated-string is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wjump-seh-finally’
+-Wjump-seh-finally is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wkeyword-compat’
+-Wkeyword-compat is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wkeyword-macro’
+-Wkeyword-macro is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wknl-knm-isa-support-removed’
+-Wknl-knm-isa-support-removed is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wknr-promoted-parameter’; did you mean ‘-Wno-unused-parameter’?
+-Wknr-promoted-parameter is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wlanguage-extension-token’
+-Wlanguage-extension-token is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wlarge-by-value-copy’
+-Wlarge-by-value-copy is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wliblto’
+-Wliblto is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wlinker-warnings’; did you mean ‘--no-warnings’?
+-Wlinker-warnings is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wliteral-conversion’; did you mean ‘-Warith-conversion’?
+-Wliteral-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wliteral-range’
+-Wliteral-range is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wlocal-type-template-args’
+-Wlocal-type-template-args is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wlogical-op-parentheses’; did you mean ‘-Wlogical-not-parentheses’?
+-Wlogical-op-parentheses is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wloop-analysis’
+-Wloop-analysis is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmacro-redefined’; did you mean ‘-Wbuiltin-macro-redefined’?
+-Wmacro-redefined is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmain-return-type’; did you mean ‘--warn-return-type’?
+-Wmain-return-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmalformed-warning-check’
+-Wmalformed-warning-check is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmany-braces-around-scalar-init’
+-Wmany-braces-around-scalar-init is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmathematical-notation-identifier-extension’
+-Wmathematical-notation-identifier-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmax-tokens’
+-Wmax-tokens is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmax-unsigned-zero’
+-Wmax-unsigned-zero is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmemsize-comparison’
+-Wmemsize-comparison is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmethod-signatures’
+-Wmethod-signatures is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmisexpect’
+-Wmisexpect is not supported
+------------------------------
+cc1: error: command-line option ‘-Wmismatched-new-delete’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wmismatched-new-delete is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmismatched-parameter-types’; did you mean ‘-Wmissing-parameter-type’?
+-Wmismatched-parameter-types is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmismatched-return-types’
+-Wmismatched-return-types is not supported
+------------------------------
+cc1: error: command-line option ‘-Wmismatched-tags’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wmismatched-tags is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmissing-constinit’
+-Wmissing-constinit is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmissing-exception-spec’
+-Wmissing-exception-spec is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmissing-method-return-type’
+-Wmissing-method-return-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmissing-multilib’
+-Wmissing-multilib is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmissing-noescape’
+-Wmissing-noescape is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmissing-prototype-for-cc’; did you mean ‘-Wmissing-prototypes’?
+-Wmissing-prototype-for-cc is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmissing-selector-name’
+-Wmissing-selector-name is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmissing-sysroot’; did you mean ‘--print-sysroot’?
+-Wmissing-sysroot is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmisspelled-assumption’
+-Wmisspelled-assumption is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmodule-conflict’; did you mean ‘-fmodule-only’?
+-Wmodule-conflict is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmodule-file-config-mismatch’
+-Wmodule-file-config-mismatch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmodule-file-extension’
+-Wmodule-file-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmodule-import-in-extern-c’
+-Wmodule-import-in-extern-c is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmodules-ambiguous-internal-linkage’
+-Wmodules-ambiguous-internal-linkage is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmodules-import-nested-redundant’
+-Wmodules-import-nested-redundant is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmost’
+-Wmost is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmove’; did you mean ‘-mmovbe’?
+-Wmove is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmsvc-include’; did you mean ‘-fdec-include’?
+-Wmsvc-include is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmsvc-not-found’
+-Wmsvc-not-found is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmulti-gpu’
+-Wmulti-gpu is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wmultiple-move-vbase’
+-Wmultiple-move-vbase is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnan-infinity-disabled’
+-Wnan-infinity-disabled is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnested-anon-types’
+-Wnested-anon-types is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnew-returns-null’
+-Wnew-returns-null is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnewline-eof’
+-Wnewline-eof is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnoderef’
+-Wnoderef is not supported
+------------------------------
+cc1: error: command-line option ‘-Wnoexcept-type’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wnoexcept-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnon-c-typedef-for-linkage’
+-Wnon-c-typedef-for-linkage is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnon-literal-null-conversion’; did you mean ‘-Wno-enum-conversion’?
+-Wnon-literal-null-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnon-modular-include-in-framework-module’
+-Wnon-modular-include-in-framework-module is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnon-modular-include-in-module’
+-Wnon-modular-include-in-module is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnon-pod-varargs’; did you mean ‘-Wno-varargs’?
+-Wnon-pod-varargs is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnon-power-of-two-alignment’
+-Wnon-power-of-two-alignment is not supported
+------------------------------
+cc1: error: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wnon-virtual-dtor is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnonportable-cfstrings’
+-Wnonportable-cfstrings is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnonportable-include-path’
+-Wnonportable-include-path is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnonportable-private-apinotes-path’
+-Wnonportable-private-apinotes-path is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnonportable-private-system-apinotes-path’
+-Wnonportable-private-system-apinotes-path is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnonportable-system-include-path’
+-Wnonportable-system-include-path is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnonportable-vector-initialization’
+-Wnonportable-vector-initialization is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnontrivial-memaccess’
+-Wnontrivial-memaccess is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnsconsumed-mismatch’; did you mean ‘-Wno-argument-mismatch’?
+-Wnsconsumed-mismatch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnsreturns-mismatch’; did you mean ‘-Wreturn-mismatch’?
+-Wnsreturns-mismatch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnull-arithmetic’
+-Wnull-arithmetic is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnull-character’
+-Wnull-character is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnull-conversion’; did you mean ‘-Wno-conversion’?
+-Wnull-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnull-pointer-arithmetic’; did you mean ‘-Wno-pointer-arith’?
+-Wnull-pointer-arithmetic is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnull-pointer-subtraction’
+-Wnull-pointer-subtraction is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnullability’
+-Wnullability is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnullability-completeness’
+-Wnullability-completeness is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnullability-completeness-on-arrays’
+-Wnullability-completeness-on-arrays is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnullability-declspec’
+-Wnullability-declspec is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnullability-extension’
+-Wnullability-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnullability-inferred-on-nested-type’
+-Wnullability-inferred-on-nested-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wnullable-to-nonnull-conversion’
+-Wnullable-to-nonnull-conversion is not supported
+------------------------------
+cc1: error: command-line option ‘-Wold-style-cast’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wold-style-cast is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wopenacc’; did you mean ‘-fopenacc’?
+-Wopenacc is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wopencl-unsupported-rgba’
+-Wopencl-unsupported-rgba is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wopenmp-51-extensions’
+-Wopenmp-51-extensions is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wopenmp-clauses’
+-Wopenmp-clauses is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wopenmp-extensions’; did you mean ‘-Wc++11-extensions’?
+-Wopenmp-extensions is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wopenmp-loop-form’
+-Wopenmp-loop-form is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wopenmp-mapping’
+-Wopenmp-mapping is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wopenmp-target’
+-Wopenmp-target is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wopenmp-target-exception’
+-Wopenmp-target-exception is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Woption-ignored’
+-Woption-ignored is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wordered-compare-function-pointers’
+-Wordered-compare-function-pointers is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wout-of-line-declaration’; did you mean ‘-Wold-style-declaration’?
+-Wout-of-line-declaration is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wout-of-scope-function’
+-Wout-of-scope-function is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wover-aligned’
+-Wover-aligned is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Woverloaded-shift-op-parentheses’
+-Woverloaded-shift-op-parentheses is not supported
+------------------------------
+cc1: error: command-line option ‘-Woverloaded-virtual=2’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Woverloaded-virtual is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Woverride-module’; did you mean ‘-Woverride-init’?
+-Woverride-module is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Woverriding-method-mismatch’
+-Woverriding-method-mismatch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Woverriding-option’
+-Woverriding-option is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpacked-non-pod’; did you mean ‘-Wpacked-not-aligned’?
+-Wpacked-non-pod is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpadded-bitfield’
+-Wpadded-bitfield is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wparentheses-equality’
+-Wparentheses-equality is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpartial-availability’
+-Wpartial-availability is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpch-date-time’; did you mean ‘-Wno-date-time’?
+-Wpch-date-time is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpedantic-core-features’
+-Wpedantic-core-features is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpedantic-macros’; did you mean ‘--pedantic-errors’?
+-Wpedantic-macros is not supported
+------------------------------
+cc1: error: command-line option ‘-Wpessimizing-move’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wpessimizing-move is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpointer-bool-conversion’
+-Wpointer-bool-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpointer-integer-compare’; did you mean ‘-Wpointer-compare’?
+-Wpointer-integer-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpointer-to-enum-cast’; did you mean ‘-Wpointer-to-int-cast’?
+-Wpointer-to-enum-cast is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpointer-type-mismatch’; did you mean ‘-Wno-lto-type-mismatch’?
+-Wpointer-type-mismatch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpotentially-direct-selector’
+-Wpotentially-direct-selector is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpotentially-evaluated-expression’
+-Wpotentially-evaluated-expression is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpragma-clang-attribute’
+-Wpragma-clang-attribute is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpragma-once-outside-header’
+-Wpragma-once-outside-header is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpragma-pack’
+-Wpragma-pack is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpragma-pack-suspicious-include’
+-Wpragma-pack-suspicious-include is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpragma-system-header-outside-header’
+-Wpragma-system-header-outside-header is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpre-openmp-51-compat’
+-Wpre-openmp-51-compat is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wpredefined-identifier-outside-function’
+-Wpredefined-identifier-outside-function is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wprivate-extern’
+-Wprivate-extern is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wprivate-header’
+-Wprivate-header is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wprivate-module’
+-Wprivate-module is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wprofile-instr-missing’
+-Wprofile-instr-missing is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wprofile-instr-out-of-date’
+-Wprofile-instr-out-of-date is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wprofile-instr-unprofiled’
+-Wprofile-instr-unprofiled is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wproperty-access-dot-syntax’
+-Wproperty-access-dot-syntax is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wproperty-attribute-mismatch’
+-Wproperty-attribute-mismatch is not supported
+------------------------------
+cc1: error: command-line option ‘-Wprotocol’ is valid for ObjC/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wprotocol is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wprotocol-property-synthesis-ambiguity’
+-Wprotocol-property-synthesis-ambiguity is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wqualified-void-return-type’
+-Wqualified-void-return-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wquoted-include-in-framework-header’
+-Wquoted-include-in-framework-header is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wrange-loop-analysis’
+-Wrange-loop-analysis is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wrange-loop-bind-reference’; did you mean ‘-Wdangling-reference’?
+-Wrange-loop-bind-reference is not supported
+------------------------------
+cc1: error: command-line option ‘-Wrange-loop-construct’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wrange-loop-construct is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wread-only-types’
+-Wread-only-types is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreadonly-iboutlet-property’
+-Wreadonly-iboutlet-property is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreceiver-expr’
+-Wreceiver-expr is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreceiver-forward-class’
+-Wreceiver-forward-class is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wredeclared-class-member’
+-Wredeclared-class-member is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wredundant-consteval-if’
+-Wredundant-consteval-if is not supported
+------------------------------
+cc1: error: command-line option ‘-Wredundant-move’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wredundant-move is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wredundant-parens’; did you mean ‘-Wredundant-tags’?
+-Wredundant-parens is not supported
+------------------------------
+cc1: error: command-line option ‘-Wregister’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wregister is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreinterpret-base-class’
+-Wreinterpret-base-class is not supported
+------------------------------
+cc1: error: command-line option ‘-Wreorder’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wreorder is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreorder-ctor’; did you mean ‘-Wreorder’?
+-Wreorder-ctor is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreorder-init-list’; did you mean ‘-fdeduce-init-list’?
+-Wreorder-init-list is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wrequires-super-attribute’
+-Wrequires-super-attribute is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreserved-id-macro’
+-Wreserved-id-macro is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreserved-identifier’; did you mean ‘-fextended-identifiers’?
+-Wreserved-identifier is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreserved-macro-identifier’
+-Wreserved-macro-identifier is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreserved-module-identifier’
+-Wreserved-module-identifier is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreserved-user-defined-literal’
+-Wreserved-user-defined-literal is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wrestrict-expansion’
+-Wrestrict-expansion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wretained-language-linkage’
+-Wretained-language-linkage is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreturn-stack-address’; did you mean ‘-Wreturn-local-addr’?
+-Wreturn-stack-address is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreturn-std-move’
+-Wreturn-std-move is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wreturn-type-c-linkage’
+-Wreturn-type-c-linkage is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wrewrite-not-bool’
+-Wrewrite-not-bool is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wrtti’; did you mean ‘-frtti’?
+-Wrtti is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsarif-format-unstable’
+-Wsarif-format-unstable is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsection’
+-Wsection is not supported
+------------------------------
+cc1: error: command-line option ‘-Wselector’ is valid for ObjC/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wselector is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wselector-type-mismatch’; did you mean ‘-Wlto-type-mismatch’?
+-Wselector-type-mismatch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wself-assign’
+-Wself-assign is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wself-assign-field’
+-Wself-assign-field is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wself-assign-overloaded’
+-Wself-assign-overloaded is not supported
+------------------------------
+cc1: error: command-line option ‘-Wself-move’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wself-move is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsemicolon-before-method-body’
+-Wsemicolon-before-method-body is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsentinel’
+-Wsentinel is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wserialized-diagnostics’
+-Wserialized-diagnostics is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wshadow-all’; did you mean ‘-Wshadow’?
+-Wshadow-all is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wshadow-field’; did you mean ‘-Wshadow-ivar’?
+-Wshadow-field is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wshadow-field-in-constructor’
+-Wshadow-field-in-constructor is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wshadow-field-in-constructor-modified’
+-Wshadow-field-in-constructor-modified is not supported
+------------------------------
+cc1: error: command-line option ‘-Wshadow-ivar’ is valid for ObjC/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wshadow-ivar is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wshadow-uncaptured-local’; did you mean ‘-Wshadow-compatible-local’?
+-Wshadow-uncaptured-local is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wshift-op-parentheses’; did you mean ‘-Wno-parentheses’?
+-Wshift-op-parentheses is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wshift-sign-overflow’; did you mean ‘-Wshift-count-overflow’?
+-Wshift-sign-overflow is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wshorten-64-to-32’
+-Wshorten-64-to-32 is not supported
+------------------------------
+cc1: error: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wsign-promo is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsigned-enum-bitfield’; did you mean ‘-fsigned-bitfields’?
+-Wsigned-enum-bitfield is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsigned-unsigned-wchar’; did you mean ‘-fno-unsigned-char’?
+-Wsigned-unsigned-wchar is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsingle-bit-bitfield-constant-conversion’
+-Wsingle-bit-bitfield-constant-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsizeof-array-decay’; did you mean ‘-Wsizeof-array-div’?
+-Wsizeof-array-decay is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wslash-u-filename’
+-Wslash-u-filename is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wslh-asm-goto’
+-Wslh-asm-goto is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsometimes-uninitialized’; did you mean ‘-Wmaybe-uninitialized’?
+-Wsometimes-uninitialized is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsource-mgr’
+-Wsource-mgr is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsource-uses-openacc’
+-Wsource-uses-openacc is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsource-uses-openmp’
+-Wsource-uses-openmp is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wspir-compat’; did you mean ‘-Wc++-compat’?
+-Wspir-compat is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wspirv-compat’; did you mean ‘-Wc++-compat’?
+-Wspirv-compat is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstack-exhausted’
+-Wstack-exhausted is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstatic-float-init’
+-Wstatic-float-init is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstatic-in-inline’
+-Wstatic-in-inline is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstatic-inline-explicit-instantiation’
+-Wstatic-inline-explicit-instantiation is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstatic-local-in-inline’
+-Wstatic-local-in-inline is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstatic-self-init’
+-Wstatic-self-init is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstdlibcxx-not-found’
+-Wstdlibcxx-not-found is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstrict-potentially-direct-selector’
+-Wstrict-potentially-direct-selector is not supported
+------------------------------
+cc1: error: command-line option ‘-Wstrict-selector-match’ is valid for ObjC/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wstrict-selector-match is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstring-concatenation’
+-Wstring-concatenation is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstring-conversion’; did you mean ‘-Wsign-conversion’?
+-Wstring-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstring-plus-char’
+-Wstring-plus-char is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstring-plus-int’
+-Wstring-plus-int is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstrlcpy-strlcat-size’
+-Wstrlcpy-strlcat-size is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wstrncat-size’
+-Wstrncat-size is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsuggest-destructor-override’
+-Wsuggest-destructor-override is not supported
+------------------------------
+cc1: error: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wsuggest-override is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsuper-class-method-mismatch’
+-Wsuper-class-method-mismatch is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsuspicious-bzero’
+-Wsuspicious-bzero is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsuspicious-memaccess’
+-Wsuspicious-memaccess is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wswift-name-attribute’
+-Wswift-name-attribute is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsync-alignment’; did you mean ‘-fipa-cp-alignment’?
+-Wsync-alignment is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wsync-fetch-and-nand-semantics-changed’
+-Wsync-fetch-and-nand-semantics-changed is not supported
+------------------------------
+cc1: error: command-line option ‘-Wsynth’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wsynth is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtarget-clones-mixed-specifiers’
+-Wtarget-clones-mixed-specifiers is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-bitwise-compare’; did you mean ‘-Wtautological-compare’?
+-Wtautological-bitwise-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-constant-compare’; did you mean ‘-Wtautological-compare’?
+-Wtautological-constant-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-constant-in-range-compare’
+-Wtautological-constant-in-range-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-constant-out-of-range-compare’
+-Wtautological-constant-out-of-range-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-negation-compare’; did you mean ‘-Wtautological-compare’?
+-Wtautological-negation-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-objc-bool-compare’; did you mean ‘-Wtautological-compare’?
+-Wtautological-objc-bool-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-overlap-compare’; did you mean ‘-Wtautological-compare’?
+-Wtautological-overlap-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-pointer-compare’; did you mean ‘-Wtautological-compare’?
+-Wtautological-pointer-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-type-limit-compare’; did you mean ‘-Wtautological-compare’?
+-Wtautological-type-limit-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-undefined-compare’; did you mean ‘-Wtautological-compare’?
+-Wtautological-undefined-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-unsigned-char-zero-compare’
+-Wtautological-unsigned-char-zero-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-unsigned-enum-zero-compare’
+-Wtautological-unsigned-enum-zero-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-unsigned-zero-compare’
+-Wtautological-unsigned-zero-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtautological-value-range-compare’
+-Wtautological-value-range-compare is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtcb-enforcement’
+-Wtcb-enforcement is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtemplate-in-declaration-name’
+-Wtemplate-in-declaration-name is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtentative-definition-incomplete-type’
+-Wtentative-definition-incomplete-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtype-safety’
+-Wtype-safety is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtypedef-redefinition’
+-Wtypedef-redefinition is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wtypename-missing’
+-Wtypename-missing is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunable-to-open-stats-file’
+-Wunable-to-open-stats-file is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunaligned-access’
+-Wunaligned-access is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunaligned-qualifier-implicit-cast’
+-Wunaligned-qualifier-implicit-cast is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunavailable-declarations’
+-Wunavailable-declarations is not supported
+------------------------------
+cc1: error: command-line option ‘-Wundeclared-selector’ is valid for ObjC/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wundeclared-selector is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundef-prefix’
+-Wundef-prefix is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundefined-arm-streaming’
+-Wundefined-arm-streaming is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundefined-arm-za’
+-Wundefined-arm-za is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundefined-arm-zt0’
+-Wundefined-arm-zt0 is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundefined-bool-conversion’
+-Wundefined-bool-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundefined-func-template’
+-Wundefined-func-template is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundefined-inline’; did you mean ‘-Wundefined-do-loop’?
+-Wundefined-inline is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundefined-internal’
+-Wundefined-internal is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundefined-internal-type’
+-Wundefined-internal-type is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundefined-reinterpret-cast’
+-Wundefined-reinterpret-cast is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wundefined-var-template’
+-Wundefined-var-template is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunderaligned-exception-object’
+-Wunderaligned-exception-object is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunevaluated-expression’
+-Wunevaluated-expression is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunguarded-availability’
+-Wunguarded-availability is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunguarded-availability-new’
+-Wunguarded-availability-new is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunicode-homoglyph’
+-Wunicode-homoglyph is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunicode-whitespace’
+-Wunicode-whitespace is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunicode-zero-width’
+-Wunicode-zero-width is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wuninitialized-const-reference’
+-Wuninitialized-const-reference is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunknown-argument’
+-Wunknown-argument is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunknown-assumption’
+-Wunknown-assumption is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunknown-attributes’; did you mean ‘-Wno-attributes’?
+-Wunknown-attributes is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunknown-cuda-version’
+-Wunknown-cuda-version is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunknown-directives’
+-Wunknown-directives is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunknown-escape-sequence’
+-Wunknown-escape-sequence is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunknown-sanitizers’
+-Wunknown-sanitizers is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunknown-warning-option’
+-Wunknown-warning-option is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunnamed-type-template-args’
+-Wunnamed-type-template-args is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunneeded-internal-declaration’
+-Wunneeded-internal-declaration is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunneeded-member-function’
+-Wunneeded-member-function is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunqualified-std-cast-call’
+-Wunqualified-std-cast-call is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunreachable-code-aggressive’
+-Wunreachable-code-aggressive is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunreachable-code-break’; did you mean ‘-Wunreachable-code’?
+-Wunreachable-code-break is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunreachable-code-fallthrough’
+-Wunreachable-code-fallthrough is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunreachable-code-generic-assoc’
+-Wunreachable-code-generic-assoc is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunreachable-code-loop-increment’
+-Wunreachable-code-loop-increment is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunreachable-code-return’; did you mean ‘-Wunreachable-code’?
+-Wunreachable-code-return is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsequenced’
+-Wunsequenced is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-abi’
+-Wunsupported-abi is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-abs’
+-Wunsupported-abs is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-availability-guard’
+-Wunsupported-availability-guard is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-cb’
+-Wunsupported-cb is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-dll-base-class-template’
+-Wunsupported-dll-base-class-template is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-floating-point-opt’
+-Wunsupported-floating-point-opt is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-friend’
+-Wunsupported-friend is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-gpopt’
+-Wunsupported-gpopt is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-nan’
+-Wunsupported-nan is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-target-opt’
+-Wunsupported-target-opt is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunsupported-visibility’
+-Wunsupported-visibility is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunusable-partial-specialization’
+-Wunusable-partial-specialization is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-argument’; did you mean ‘-Wunused-dummy-argument’?
+-Wunused-argument is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-command-line-argument’; did you mean ‘-Wunused-dummy-argument’?
+-Wunused-command-line-argument is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-comparison’
+-Wunused-comparison is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-exception-parameter’; did you mean ‘-Wunused-but-set-parameter’?
+-Wunused-exception-parameter is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-getter-return-value’
+-Wunused-getter-return-value is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-lambda-capture’
+-Wunused-lambda-capture is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-local-typedef’; did you mean ‘-Wunused-local-typedefs’?
+-Wunused-local-typedef is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-member-function’; did you mean ‘-Wunused-function’?
+-Wunused-member-function is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-private-field’
+-Wunused-private-field is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-property-ivar’
+-Wunused-property-ivar is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-template’; did you mean ‘-Wunused-result’?
+-Wunused-template is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wunused-volatile-lvalue’
+-Wunused-volatile-lvalue is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wused-but-marked-unused’
+-Wused-but-marked-unused is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wuser-defined-literals’
+-Wuser-defined-literals is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wuser-defined-warnings’
+-Wuser-defined-warnings is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wvec-elem-size’
+-Wvec-elem-size is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wvector-conversion’; did you mean ‘-Warith-conversion’?
+-Wvector-conversion is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wvector-conversions’; did you mean ‘-flax-vector-conversions’?
+-Wvector-conversions is not supported
+------------------------------
+cc1: error: command-line option ‘-Wvexing-parse’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wvexing-parse is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wvisibility’; did you mean ‘--visibility=’?
+-Wvisibility is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wvla-cxx-extension’
+-Wvla-cxx-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wvla-extension’
+-Wvla-extension is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wvla-extension-static-assert’
+-Wvla-extension-static-assert is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wvoid-pointer-to-enum-cast’; did you mean ‘-Wno-pointer-to-int-cast’?
+-Wvoid-pointer-to-enum-cast is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wvoid-pointer-to-int-cast’; did you mean ‘-Wno-pointer-to-int-cast’?
+-Wvoid-pointer-to-int-cast is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wvoid-ptr-dereference’; did you mean ‘-Wno-null-dereference’?
+-Wvoid-ptr-dereference is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wwasm-exception-spec’; did you mean ‘--warn-exceptions’?
+-Wwasm-exception-spec is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wweak-template-vtables’; did you mean ‘-fweak-templates’?
+-Wweak-template-vtables is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wweak-vtables’
+-Wweak-vtables is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wwritable-strings’; did you mean ‘-Wwrite-strings’?
+-Wwritable-strings is not supported
+------------------------------
+cc1: error: command-line option ‘-Wzero-as-null-pointer-constant’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+-Wzero-as-null-pointer-constant is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-Wzero-length-array’; did you mean ‘-Wzero-length-bounds’?
+-Wzero-length-array is not supported
+------------------------------
+cc1: error: ‘-fsanitize=pointer-compare’ must be combined with ‘-fsanitize=address’ or ‘-fsanitize=kernel-address’
+-fsanitize=pointer-compare is not supported
+------------------------------
+cc1: error: ‘-fsanitize=pointer-subtract’ must be combined with ‘-fsanitize=address’ or ‘-fsanitize=kernel-address’
+-fsanitize=pointer-subtract is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-fsanitize-address-use-after-return=always’; did you mean ‘-fsanitize-address-use-after-scope’?
+-fsanitize-address-use-after-return=always is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘cfi’
+-fsanitize=cfi is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-fsanitize-cfi-cross-dso’
+-fsanitize-cfi-cross-dso is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-fsanitize-cfi-icall-generalize-pointers’
+-fsanitize-cfi-icall-generalize-pointers is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-fsanitize-cfi-icall-experimental-normalize-integers’
+-fsanitize-cfi-icall-experimental-normalize-integers is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-fsanitize-cfi-canonical-jump-tables’
+-fsanitize-cfi-canonical-jump-tables is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘cfi-icall’
+-fsanitize=cfi-icall is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘function’
+-fsanitize=function is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘cfi-cast-strict’
+-fsanitize=cfi-cast-strict is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘cfi-derived-cast’
+-fsanitize=cfi-derived-cast is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘cfi-unrelated-cast’
+-fsanitize=cfi-unrelated-cast is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘cfi-nvcall’
+-fsanitize=cfi-nvcall is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘cfi-mfcall’
+-fsanitize=cfi-mfcall is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘dataflow’
+-fsanitize=dataflow is not supported
+------------------------------
+cc1: warning: unrecognized gcc debugging option: f
+cc1: warning: unrecognized gcc debugging option: s
+cc1: warning: unrecognized gcc debugging option: n
+cc1: warning: unrecognized gcc debugging option: -
+cc1: warning: unrecognized gcc debugging option: c
+cc1: warning: unrecognized gcc debugging option: o
+cc1: warning: unrecognized gcc debugging option: m
+cc1: warning: unrecognized gcc debugging option: b
+cc1: warning: unrecognized gcc debugging option: i
+cc1: warning: unrecognized gcc debugging option: n
+cc1: warning: unrecognized gcc debugging option: e
+cc1: warning: unrecognized gcc debugging option: -
+cc1: warning: unrecognized gcc debugging option: o
+cc1: warning: unrecognized gcc debugging option: f
+cc1: warning: unrecognized gcc debugging option: f
+cc1: warning: unrecognized gcc debugging option: s
+cc1: warning: unrecognized gcc debugging option: e
+cc1: warning: unrecognized gcc debugging option: t
+cc1: warning: unrecognized gcc debugging option: -
+cc1: warning: unrecognized gcc debugging option: l
+cc1: warning: unrecognized gcc debugging option: b
+cc1: warning: unrecognized gcc debugging option: e
+cc1: warning: unrecognized gcc debugging option: l
+cc1: warning: unrecognized gcc debugging option: s
+cc1: warning: unrecognized gcc debugging option: -
+cc1: warning: unrecognized gcc debugging option: o
+cc1: warning: unrecognized gcc debugging option: n
+cc1: warning: unrecognized gcc debugging option: -
+cc1: warning: unrecognized gcc debugging option: g
+cc1: warning: unrecognized gcc debugging option: e
+cc1: warning: unrecognized gcc debugging option: f
+cc1: warning: unrecognized gcc debugging option: s
+cc1: warning: unrecognized gcc debugging option: n
+cc1: warning: unrecognized gcc debugging option: -
+cc1: warning: unrecognized gcc debugging option: c
+cc1: warning: unrecognized gcc debugging option: o
+cc1: warning: unrecognized gcc debugging option: n
+cc1: warning: unrecognized gcc debugging option: d
+cc1: warning: unrecognized gcc debugging option: i
+cc1: warning: unrecognized gcc debugging option: t
+cc1: warning: unrecognized gcc debugging option: i
+cc1: warning: unrecognized gcc debugging option: o
+cc1: warning: unrecognized gcc debugging option: n
+cc1: warning: unrecognized gcc debugging option: l
+cc1: warning: unrecognized gcc debugging option: -
+cc1: warning: unrecognized gcc debugging option: c
+cc1: warning: unrecognized gcc debugging option: l
+cc1: warning: unrecognized gcc debugging option: l
+cc1: warning: unrecognized gcc debugging option: b
+cc1: warning: unrecognized gcc debugging option: c
+cc1: warning: unrecognized gcc debugging option: k
+cc1: warning: unrecognized gcc debugging option: s
+cc1: warning: unrecognized gcc debugging option: f
+cc1: warning: unrecognized gcc debugging option: s
+cc1: warning: unrecognized gcc debugging option: n
+cc1: warning: unrecognized gcc debugging option: -
+cc1: warning: unrecognized gcc debugging option: t
+cc1: warning: unrecognized gcc debugging option: r
+cc1: warning: unrecognized gcc debugging option: c
+cc1: warning: unrecognized gcc debugging option: k
+cc1: warning: unrecognized gcc debugging option: -
+cc1: warning: unrecognized gcc debugging option: o
+cc1: warning: unrecognized gcc debugging option: r
+cc1: warning: unrecognized gcc debugging option: i
+cc1: warning: unrecognized gcc debugging option: g
+cc1: warning: unrecognized gcc debugging option: i
+cc1: warning: unrecognized gcc debugging option: n
+cc1: warning: unrecognized gcc debugging option: s
+cc1: warning: unrecognized gcc debugging option: =
+cc1: warning: unrecognized gcc debugging option: 2
+/usr/bin/ld: cannot find libhwasan_preinit.o: No such file or directory
+/usr/bin/ld: cannot find -lhwasan: No such file or directory
+collect2: error: ld returned 1 exit status
+-fsanitize=hwaddress is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘memory’
+-fsanitize=memory is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-fsanitize-memory-track-origins’
+-fsanitize-memory-track-origins is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘safe-stack’
+-fsanitize=safe-stack is not supported
+------------------------------
+/tmp/test_src_ZcPNR3.c: sorry, unimplemented: ‘-fsanitize=shadow-call-stack’ not supported in current platform
+-fsanitize=shadow-call-stack is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘array-bounds’
+-fsanitize=array-bounds is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘local-bounds’
+-fsanitize=local-bounds is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘local-bounds’
+-fsanitize=local-bounds is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘function’
+-fsanitize=function is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘implicit-unsigned-integer-truncation’
+-fsanitize=implicit-unsigned-integer-truncation is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘implicit-signed-integer-truncation’
+-fsanitize=implicit-signed-integer-truncation is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘implicit-integer-sign-change’
+-fsanitize=implicit-integer-sign-change is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘nullability-arg’
+-fsanitize=nullability-arg is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘nullability-assign’
+-fsanitize=nullability-assign is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘nullability-return’
+-fsanitize=nullability-return is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘objc-cast’
+-fsanitize=objc-cast is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘unsigned-shift-base’
+-fsanitize=unsigned-shift-base is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘implicit-conversion’
+-fsanitize=implicit-conversion is not supported
+------------------------------
+gcc: error: unrecognized argument to ‘-fsanitize=’ option: ‘unsigned-integer-overflow’; did you mean ‘signed-integer-overflow’?
+-fsanitize=unsigned-integer-overflow is not supported
+------------------------------
+gcc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+-fprofile-instr-generate is not supported
+------------------------------
