@@ -166,6 +166,7 @@ fail:
     exit(EXIT_FAILURE);
 }
 
+/* Pairs SIGINT with sig_handler */
 static void setup_signal_handler(void)
 {
     struct sigaction sa;
@@ -192,6 +193,7 @@ static void setup_signal_handler(void)
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wunused-parameter"
 
+/* Write to stdout a shutdown message and set exit_flag to end while loop in main */
 static void sig_handler(int sig)
 {
     const char *message = "\nSIGINT received. Server shutting down.\n";
@@ -201,6 +203,7 @@ static void sig_handler(int sig)
 
 #pragma GCC diagnostic pop
 
+/* Use getopt to parse for ip address and port or help */
 static void parse_arguments(int argc, char *argv[], char **ip_address, char **port)
 {
     int opt;
@@ -240,13 +243,14 @@ static void parse_arguments(int argc, char *argv[], char **ip_address, char **po
 
     if(optind < argc - 2)
     {
-        print_usage(argv[0], EXIT_FAILURE, "Error: too many arugments.");
+        print_usage(argv[0], EXIT_FAILURE, "Error: too many arguments.");
     }
 
     *ip_address = argv[optind];
     *port       = argv[optind + 1];
 }
 
+/* Handle any leftover potential errors after parse_arguments */
 static void handle_arguments(const char *binary_name, const char *ip_address, const char *port_str, in_port_t *port)
 {
     if(ip_address == NULL)
@@ -261,6 +265,7 @@ static void handle_arguments(const char *binary_name, const char *ip_address, co
     *port = parse_in_port_t(binary_name, port_str);
 }
 
+/* Converts the port from string format to required in_port_t type */
 static in_port_t parse_in_port_t(const char *binary_name, const char *str)
 {
     char     *endptr;
@@ -302,6 +307,7 @@ _Noreturn static void print_usage(const char *program_name, int exit_code, const
     exit(exit_code);
 }
 
+/* Assigns the address specified by addr to the socket referred to by sockfd */
 static void socket_bind(int sockfd, struct sockaddr_storage *addr, in_port_t port)
 {
     char      addr_str[INET6_ADDRSTRLEN];
@@ -349,6 +355,7 @@ static void socket_bind(int sockfd, struct sockaddr_storage *addr, in_port_t por
     }
 }
 
+/* Convert incoming message and write the transformed message to client_fd */
 int handle_request(int client_fd)
 {
     char        buf[BUFFER_SIZE];

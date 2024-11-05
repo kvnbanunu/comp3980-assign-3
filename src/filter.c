@@ -5,6 +5,7 @@
 
 #include "../include/filter.h"
 
+/* Applies filter to each character based on function pointer */
 void filter_message(char *message, size_t msgSize, char (*filter_func)(char))
 {
     for(size_t i = 0; i < msgSize && message[i] != '\0'; i++)
@@ -13,6 +14,7 @@ void filter_message(char *message, size_t msgSize, char (*filter_func)(char))
     }
 }
 
+/* Converts char to uppercase */
 char upper_filter(char c)
 {
     if(c >= 'a' && c <= 'z')
@@ -22,6 +24,7 @@ char upper_filter(char c)
     return c;
 }
 
+/* Converts char to lowercase */
 char lower_filter(char c)
 {
     if(c >= 'A' && c <= 'Z')
@@ -31,6 +34,7 @@ char lower_filter(char c)
     return c;
 }
 
+/* Returns char with no change */
 char null_filter(char c)
 {
     return c;

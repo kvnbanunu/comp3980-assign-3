@@ -11,6 +11,9 @@
 #include <string.h>
 #include <unistd.h>
 
+/*
+ * Converts IPv4 or IPv6 address from text to binary form.
+ */
 void convert_address(const char *address, struct sockaddr_storage *addr)
 {
     memset(addr, 0, sizeof(*addr));
